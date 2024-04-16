@@ -5,13 +5,14 @@
  * Luhn's Algorithm                         *
  *                                          *
  ********************************************/
+// add another class to this project. in the class, call the validatecard method and pass it a string. have it return if it is a structurally valid number or not. do a commit and push once done
 using System;
 
 namespace Luhns_Algorithm
 {
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             while (true)
             {
@@ -25,7 +26,7 @@ namespace Luhns_Algorithm
                     Console.WriteLine("That number does not appear to be a valid format.");
                 }
             }
-        }
+        }*/
         public static bool ValidateCard(String cardNumber)
         {
             try
